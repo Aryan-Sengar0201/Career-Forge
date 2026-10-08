@@ -125,7 +125,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           streak: 1,
         };
         localStorage.setItem('careerforge_user', JSON.stringify(newUser));
-        await api.syncProfile({ id: userId, email, fullName });
+        await api.syncProfile({ id: userId, email, fullName }).catch(() => {});
         setUser(newUser);
       } else {
         // Local session with server persistence
@@ -140,7 +140,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         };
         localStorage.setItem('careerforge_token', `local-token-${userId}`);
         localStorage.setItem('careerforge_user', JSON.stringify(newUser));
-        await api.syncProfile({ id: userId, email, fullName });
+        await api.syncProfile({ id: userId, email, fullName }).catch(() => {});
         setUser(newUser);
       }
     } finally {
@@ -170,7 +170,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         };
         localStorage.setItem('careerforge_user', JSON.stringify(userObj));
         setUser(userObj);
-        await api.syncProfile({ id: userObj.id, email: userObj.email, fullName: userObj.fullName });
+        await api.syncProfile({ id: userObj.id, email: userObj.email, fullName: userObj.fullName }).catch(() => {});
       } else {
         // Local session login
         let existingUser: UserProfile | null = null;
@@ -196,7 +196,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         localStorage.setItem('careerforge_token', `local-token-${loggedInUser.id}`);
         localStorage.setItem('careerforge_user', JSON.stringify(loggedInUser));
         setUser(loggedInUser);
-        await api.syncProfile({ id: loggedInUser.id, email: loggedInUser.email, fullName: loggedInUser.fullName });
+        await api.syncProfile({ id: loggedInUser.id, email: loggedInUser.email, fullName: loggedInUser.fullName }).catch(() => {});
       }
     } finally {
       setLoading(false);
