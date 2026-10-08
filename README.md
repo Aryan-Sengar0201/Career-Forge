@@ -3,8 +3,6 @@
 > **"Forge Your Path. Build Your Future."**  
 > *Turn your dream career into a personalized, AI-powered career path.*
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-00ad9f?style=for-the-badge&logo=netlify)](https://career-forge-pilot.netlify.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Aryan-Sengar0201/Career-Forge)
 
 🌐 **Live Application URL:** **[https://career-forge-pilot.netlify.app/](https://career-forge-pilot.netlify.app/)**  
 💻 **GitHub Repository:** **[https://github.com/Aryan-Sengar0201/Career-Forge](https://github.com/Aryan-Sengar0201/Career-Forge)**
