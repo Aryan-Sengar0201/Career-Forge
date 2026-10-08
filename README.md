@@ -290,15 +290,7 @@ npm run build
 
 ---
 
-## 16. Who It Is For
-
-- **Students & Self-Taught Developers**: Seeking a clear, non-overwhelming step-by-step path from zero to job-ready.
-- **Engineers Pivoting Stacks**: (e.g., Python scripts to Full-Stack FinTech) who need to skip beginner basics and focus immediately on production architectural patterns.
-- **Bootcamp Graduates**: Needing portfolio capstone projects with real-world technical depth instead of generic todo apps.
-
----
-
-## 17. What Was Added Beyond Core PS1
+## 16. What Was Added Beyond Core PS1
 
 1. **Interactive Mission Runner & Live Quizzes**: Users don't just view skills—they take micro-challenges with instant feedback and XP awards.
 2. **AI Resume Alignment Analyzer**: Directly analyzes resumes against target roles to recommend roadmap adjustments.
