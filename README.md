@@ -12,15 +12,31 @@
 
 **Problem Statement 1 — Reverse-Engineered Career Roadmapper**
 
-Aspiring software engineers, students, and career changers frequently encounter ambiguous, generic career advice. When a candidate says:
+Traditional career advice is often too generic.
 
-> *"I want to become a Full Stack Developer at a FinTech startup."*
+For example, a student interested in becoming a:
 
-Generic platforms simply provide laundry lists of tutorial videos ("Learn Python", "Build a project", "Apply to jobs"). They fail to communicate:
-1. **Where am I?**
-2. **Where am I going?**
-3. **What have I completed?**
-4. **What should I do next?**
+> **Frontend Engineer at a product-based fintech startup**
+
+might simply be told:
+
+- Learn HTML
+- Learn CSS
+- Learn JavaScript
+- Learn React
+- Build a portfolio
+
+But real career journeys are more nuanced.
+
+Students need to understand:
+
+- What skills are actually required?
+- Which skills are they currently missing?
+- Which projects demonstrate those skills?
+- What intermediate roles should they target?
+- Which credentials can strengthen their profile?
+- What experience should they gain before applying?
+- What should they focus on **next**?
 
 **CareerForge** solves this by fundamentally reverse-engineering the destination role backwards into an interactive Directed Acyclic Graph (DAG) of architectural proficiencies, dependencies, real-world portfolio projects, and daily missions.
 
