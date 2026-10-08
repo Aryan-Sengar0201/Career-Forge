@@ -5,7 +5,6 @@
 
 
 🌐 **Live Application URL:** **[https://career-forge-pilot.netlify.app/](https://career-forge-pilot.netlify.app/)**  
-💻 **GitHub Repository:** **[https://github.com/Aryan-Sengar0201/Career-Forge](https://github.com/Aryan-Sengar0201/Career-Forge)**
 
 ---
 
